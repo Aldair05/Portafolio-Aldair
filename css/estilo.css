@@ -1,0 +1,104 @@
+body{
+    background-image: url(../imagenes/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+
+body::before {
+
+    content: '';
+    position: absolute;
+    background-color:rgba(0,0, 0, .7);
+    background-attachment: fixed; 
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.caja-imagen{
+    padding-top: 130px;
+}
+
+.fotoInfantil{
+    border-radius: 40px;
+}
+
+.info-nombre{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+ .info{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+} 
+
+
+/* MEDIAS QUERYS */
+
+@media (min-width: 300px){
+
+    .info-nombre{
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+    }
+    
+    .info{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+    } 
+
+}
+
+@media (min-width: 576px) { 
+     
+    .info-nombre{
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .info{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        
+        font-size: 20px;
+    } 
+
+
+}
+
+
+@media (min-width: 768px) { 
+
+ }
+
+
+@media (min-width: 992px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+
+ }

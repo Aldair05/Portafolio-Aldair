@@ -1,0 +1,41 @@
+@font-face{
+    font-family:fuente;
+    src: url(../fuentes/Keep.ttf)
+}
+
+.Sub-servicios{
+    color:black;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-family: bienvenida;
+}
+
+@font-face{
+    font-family: bienvenida;
+    src: url(../fuentes/bienvenida.ttf)
+}
+
+.bienvenida{
+    color: #ffff;
+    font-family: bienvenida;
+    font-size: 50px;
+
+}
+
+@font-face{
+    font-family: inicio;
+    src: url(../fuentes/inicio.ttf)
+}
+
+
+
+.inicio{
+    color: #fed136;
+    font-family:inicio;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    margin-top: -20px;
+    
+}
