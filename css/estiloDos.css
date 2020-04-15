@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color:  #037562 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+.textSobremi{
+    padding-top: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divColumnaImg{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.divColumnaInfo{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.contenedorCard{
+    width: 18rem;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+}
+
+.infoCard{
+    display: inline-block;
+} 
+
+.paddingCardInfo{
+    padding: 30px;
+}
+
+.TextCard{
+    text-align: justify;
+    color:#fff;
+}
+
+.tamañoBotton{
+    width: 100px;
+    margin: auto;
+    background-color: #034F75;
+}
+
+.card-title{
+    color: #fff;
+    text-align: center;
+}
+
+/* MEDIAS QUERYS */
+
+@media (min-width: 300px){
+
+
+
+}
+
+@media (min-width: 576px) { 
+     
+    .info-nombre{
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .info{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        
+        font-size: 20px;
+    } 
+
+
+}
+
+
+@media (min-width: 768px) { 
+
+ }
+
+
+@media (min-width: 992px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+
+ }

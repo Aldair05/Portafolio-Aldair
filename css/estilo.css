@@ -1,26 +1,27 @@
 body{
-    background-image: url(../imagenes/Fondo.jpg);
-    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../imagenes/fondo2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
-    height: 100%;
-    width: 100%;
+    background-position: center;
+    box-sizing: border-box;
 }
 
 
-body::before {
-
-    content: '';
-    position: absolute;
-    background-color:rgba(0,0, 0, .7);
-    background-attachment: fixed; 
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
+body:before {
+    content: "";
     width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index: -10;
+    
+    
+    
 }
 
 
@@ -45,6 +46,21 @@ body::before {
     color: #fff;
     padding-top: 15px;
 } 
+
+.textSobremi{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedorCard{
+    text-align: center;
+}
+
+.infoCard{
+    display: inline-block;
+}
 
 
 /* MEDIAS QUERYS */
