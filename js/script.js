@@ -1,4 +1,3 @@
-
 //VARIABLES 
 const mostrarMenu = document.getElementById('mostrar-nav');
 const navegador = document.getElementById('navega');

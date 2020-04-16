@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/menu.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/estiloTres.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,500,500i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -18,10 +19,10 @@
 </head>
 <body>
 <!-- INICIO DE MENU  -->
-    <div class="container-fluid">
-        <header>
+    <div class="container-fluid navbar-fixed-top">
+        <header class="">
             <div id="mostrar-nav"><i class="fas fa-bars"></i></div>
-                <nav id="navega" class="">
+                <nav id="navega" class=" ">
                   <ul class="menu">
                     <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a></li>
                     <li><a href="index2.html"><i class="fas fa-user-alt"></i> Sobre mi</a></li>
@@ -183,7 +184,7 @@
             <p class="fontText">CONTROL DE VERSIONES</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row padding-versiones">
         <div class="col-md-6"> 
             <div class="progreso-basico-git git">
                 <span class="progreso-derecha-basico-git">
@@ -212,7 +213,27 @@
     <!-- Termina columna de control de versiones -->
 </div>
 
-    
+<footer class="">
+    <div class="container-fluid fondo-footer">
+        <div class="row linea-estilo">
+            <div class="col-md-4 celular-border">
+                <i class="fas fa-mobile-alt tamanio-Icono"></i>
+                <p>55-48-12-15-54</p>
+            </div>
+            <div class="col-md-4 correo-border">
+                <i class="far fa-envelope tamanio-Icono"></i>
+                <p>aldair.uaem@gmail.com</p>
+            </div>
+            <div class="col-md-4 linkedin ">
+                <i class="fab fa-linkedin tamanio-Icono"></i>
+                <p><a rel="stylesheet" class="style-link" href="http://www.linkedin.com/in/aldair-ramírez">www.linkedin.com/in/aldair-ramírez</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
 </body>
     <script src="js/jquery-3.5.0.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
