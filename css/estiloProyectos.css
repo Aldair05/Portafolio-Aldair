@@ -1,0 +1,17 @@
+.color-Fondo{
+    background-color: #037562;
+    
+}
+.textHabilidades{
+    padding-top: 70px;
+    text-align: center;
+}
+.fontText{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff; 
+}
+
+.padding-card{
+    padding-bottom: 50px;
+}
