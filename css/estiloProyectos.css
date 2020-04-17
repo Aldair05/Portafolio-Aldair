@@ -16,3 +16,19 @@
     padding-bottom: 50px;
     text-align: center;
 }
+
+.padding-gif{
+    text-align:center;
+    margin: 0 auto;
+}
+
+.fontLink{
+    
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.fontLink:hover{
+    text-decoration: none;
+    color:#033375;
+}
