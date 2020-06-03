@@ -1,23 +1,28 @@
+
+
 .fondo-footer{
-    background-color: rgba(0, 0, 0, .9);
+    background-color: #383838;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #ffff;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .linea-estilo{
-    border-bottom: 1px solid #ffff;
-    border-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,164,134,1) 0%, rgba(0,212,255,1) 100%) 1;
+    border-bottom: 1px solid #106B9C;
+    /* border-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,164,134,1) 0%, rgba(0,212,255,1) 100%) 1; */
+    
     margin: 20px;
 }
 
 .tamanio-Icono{
     text-align: center;
     font-size: 30px;
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,164,134,1) 0%, rgba(0,212,255,1) 100%);
+    color: #106B9C;
+    /* background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,164,134,1) 0%, rgba(0,212,255,1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 .style-link{

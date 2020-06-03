@@ -1,6 +1,32 @@
-body{
-    background-color:  #07A486 ;
+
+
+/* globales */
+.contenedor{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ h2::after{
+    content: '';
+    background-image: url(../imagenes/separador1.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 30px;
+    width: 130px;
+    display: block;
+} 
+
+
+/* Habilidades */
+
 .textHabilidades{
     padding-top: 70px;
     text-align: center;
@@ -65,68 +91,68 @@ body{
     color: #2684FF;
 }
 .InfoskillHtml{
-    color: #fff;
+    color: #000000;
     font-size: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillCss{
-    color: #fff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillJs{
-    color: #fff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillPhp{
-    color: #ffff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillBootstrap{
-    color: #ffff;
+    color:#000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillJquery{
-    color: #ffff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillSql{
-    color: #ffff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillMysql{
-    color: #ffff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillGit{
-    color: #ffff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .InfoskillBuc{
-    color: #ffff;
+    color: #000000;
     font: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .infoPorcentaje{
     font-family: 'Lato', sans-serif;
-    color:#ffff;
+    
     font-size: 20px;
     text-align: center;
 }
@@ -479,9 +505,9 @@ body{
      width: 90%;
      height: 90%;
      border-radius: 50%;
-     background: #07A486;
+
      font-size: 24px;
-     color: #fff;
+     color: #000000;
      line-height: 135px;
      text-align: center;
      position: absolute;
@@ -493,9 +519,9 @@ body{
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: #07A486;
+
     font-size: 24px;
-    color: #fff;
+    color: #000000;
     line-height: 135px;
     text-align: center;
     position: absolute;
@@ -507,7 +533,6 @@ body{
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: #07A486;
     font-size: 24px;
     color: #fff;
     line-height: 135px;
@@ -521,7 +546,6 @@ body{
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: #07A486;
     font-size: 24px;
     color: #fff;
     line-height: 135px;
@@ -535,7 +559,6 @@ body{
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: #07A486;
     font-size: 24px;
     color: #fff;
     line-height: 135px;
@@ -550,7 +573,6 @@ body{
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: #07A486;
     font-size: 24px;
     color: #fff;
     line-height: 135px;
@@ -777,3 +799,38 @@ body{
         transform: rotate(110deg);
     }
 }
+
+
+div.javaScript, 
+div.html,
+div.css,
+div.php3,
+div.bootstrap4,
+div.jq,
+div.sql-server,
+div.bd-mysql,
+div.github,
+div.bitbucket {   
+    transition: all .3s ease;
+    padding: 20px 0 0 0;
+}
+
+
+
+
+div.javaScript:hover,
+div.html:hover,
+div.css:hover,
+div.php3:hover,
+div.bootstrap4:hover,
+div.jq:hover,
+div.sql-server:hover,
+div.bd-mysql:hover,
+div.github:hover,
+div.bitbucket:hover{
+    transform: scale(1.1);
+}
+
+
+
+

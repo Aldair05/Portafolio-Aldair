@@ -1,0 +1,178 @@
+/* Globales */
+
+body{
+    background-color:  #ffffff;
+    height: 100vh;
+    
+}
+
+.contenedor{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Enriqueta', serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: left;
+    
+}
+
+ h2::after{
+    content: '';
+    background-image: url(../imagenes/separador1.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 30px;
+    width: 130px;
+    display: block;
+} 
+
+
+
+
+/* SOBRE MI */
+.colorFondo{
+      padding: 0;
+}
+
+
+.imagen-perfil{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.imagen-perfil img{
+    border-radius: 7px;
+}
+
+.informacion {
+    background-color: #F9F9F9;
+    border-radius: 7px;
+    transition: all .3s ease;
+}
+
+.informacion:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(16,107,156,0.38);
+    -moz-box-shadow: 0px 0px 16px 3px rgba(16,107,156,0.38);
+    box-shadow: 0px 0px 16px 3px rgba(16,107,156,0.38);
+}   
+
+.informacion p span{
+    font-family: 'Work sans', sans-serif;
+    color: #106B9C;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.informacion p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+.informacion ul li{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+.lista-personal{
+    padding-left: 0;
+}
+
+.lista-personal .tamaño-icono{
+    font-size: 1.2em;
+    color: #106B9C;
+    padding: 0 10px 10px 0;
+    
+}
+
+.informacion .btn-info{
+    background-color: #106B9C;
+}
+
+
+/* MEDIAS QUERYS */
+
+@media (min-width: 300px){
+
+
+
+}
+
+@media (min-width: 576px) { 
+     
+    .info-nombre{
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .info{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        
+        font-size: 20px;
+    } 
+
+
+}
+
+
+/* PROYECTOS  */
+
+
+
+.textHabilidades{
+    padding-top: 70px;
+    text-align: center;
+}
+.fontText{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff; 
+}
+
+.padding-card{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.padding-gif{
+    text-align:center;
+    margin: 0 auto;
+}
+
+.fontLink{
+    /* padding-top: 20px; */
+    color:#000000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+div.card-body p {
+    padding-top: 15px;
+    
+}
+
+.fontLink:hover{
+    text-decoration: none;
+    color:#033375;
+}

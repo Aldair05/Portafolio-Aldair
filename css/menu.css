@@ -1,3 +1,5 @@
+
+
 .menu {
     list-style: none;
     line-height: 42px;
@@ -53,8 +55,10 @@
     position: fixed;
     cursor: pointer;
     font-size: 35px;
-    color:#fff;
+    color: #B1AFB3;
     padding-left: 15px;
     padding-top: 10px;
     z-index: 30;
 }  
+
+

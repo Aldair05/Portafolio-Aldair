@@ -3,13 +3,17 @@ const mostrarMenu = document.getElementById('mostrar-nav');
 const navegador = document.getElementById('navega');
 
 
+
+
+
 AddeventListener();
 
 //AddeventListener
 function AddeventListener(){
-//Mostrar el menu
-mostrarMenu.addEventListener('click',MostrarMenu);
 
+    //Mostrar el menu
+mostrarMenu.addEventListener('click',MostrarMenu);
+        
 }
 
 
@@ -17,6 +21,7 @@ mostrarMenu.addEventListener('click',MostrarMenu);
 function MostrarMenu(e){
     e.preventDefault();
     navegador.classList.toggle('mostrar');
+    // mostrarMenu.style.color = 'white';
 }
 
 

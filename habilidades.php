@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,500,500i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&family=PT+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
@@ -24,25 +25,27 @@
             <div id="mostrar-nav"><i class="fas fa-bars"></i></div>
                 <nav id="navega" class=" ">
                   <ul class="menu">
-                    <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a></li>
-                    <li><a href="index2.html"><i class="fas fa-user-alt"></i> Sobre mi</a></li>
-                    <li><a href="index3.html"><i class="fas fa-file-code"></i> Habilidades</a></li>
-                    <li><a href="index4.html"><i class="fas fa-project-diagram"></i> Proyectos</a></li>
+                    <li><a href="index.php"> <i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="sobreMi.php"><i class="fas fa-user-alt"></i> Sobre mi</a></li>
+                    <li><a href="habilidades.php"><i class="fas fa-file-code"></i> Habilidades</a></li>
+                    <li><a href="proyectos.php"><i class="fas fa-project-diagram"></i> Proyectos</a></li>
                   </ul>
                 </nav>
         </header>
     </div>
 <!-- TERMINA  EL MENU  -->
-<div class="container">
-    <div class="textHabilidades">
-        <p class="fontText">TECNOLOGIAS WEB</p>
+    <div class="container contenedor">
+        <div class="textHabilidades">
+            <h2>Tecnologias web</h2>
+        </div>
     </div>
-</div>
+
+
 <div class="container">
     <!-- Inicia Columna de Tecnologias -->
     <div class="row">
         <!-- Inicia circulo JavaScript -->
-        <div class="col-md-3">
+        <div class="col-md-3 javaScript">
             <div class="progreso js">
                 <span class="progreso-izquierda">
                     <span class="progress-bar"></span>
@@ -59,7 +62,7 @@
         </div>
         <!-- Termina circulo JavaScript -->
         <!-- Inicia circulo Html -->
-        <div class="col-md-3">
+        <div class="col-md-3 html">
             <div class="progreso html5">
                 <span class="progreso-izquierda">
                     <span class="progress-bar"></span>
@@ -76,7 +79,7 @@
         </div>
         <!-- Termina circulo Html -->
         <!-- Inicia circulo Css -->
-        <div class="col-md-3">
+        <div class="col-md-3 css">
             <div class="progreso css3">
                 <span class="progreso-izquierda">
                     <span class="progress-bar"></span>
@@ -93,7 +96,7 @@
         </div>
         <!-- Termina circulo Css -->
         <!-- Inicia circulo Php -->
-        <div class="col-md-3">
+        <div class="col-md-3 php3">
             <div class="progreso-basico php">
                 <span class="progreso-derecha-basico">
                     <span class="progress-bar-basico"></span>
@@ -108,16 +111,14 @@
         <!-- Terina circulo Php -->
     </div>
     <!--Termina Columna de Tecnologias -->
-    <div class="container">
-        <div class="row ">
-            <div class="col-md-12 textHabilidades">
-                <p class="fontText">FRAMEWORKS Y BASES DE DATOS</p>
-            </div>
+    <div class="container contenedor">
+        <div class="textHabilidades">
+            <h2> frameworks y bases de datos </h2>
         </div>
     </div>
     <!-- Incia Columna de Frameworks -->
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 bootstrap4">
             <div class="progreso bootstrap">
                 <span class="progreso-izquierda">
                     <span class="progress-bar"></span>
@@ -132,7 +133,7 @@
                 <p class="infoPorcentaje">Intermedio</p>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 jq">
             <div class="progreso jquery">
                 <span class="progreso-izquierda">
                     <span class="progress-bar"></span>
@@ -148,7 +149,7 @@
             </div>
         </div>
         <!-- Inicia Circulo de SqlServer -->
-        <div class="col-md-3">
+        <div class="col-md-3 sql-server">
             <div class="progreso-basico-sql sql">
                 <span class="progreso-derecha-basico-sql">
                     <span class="progress-bar-basico"></span>
@@ -162,7 +163,7 @@
         </div>
         <!-- Termina Circulo de SqlServer -->
         <!-- Inicia Circulo de Mysql -->
-        <div class="col-md-3">
+        <div class="col-md-3 bd-mysql">
             <div class="progreso-basico-mysql mysql">
                 <span class="progreso-derecha-basico-mysql">
                     <span class="progress-bar-basico"></span>
@@ -179,13 +180,15 @@
     <!-- Termina Columna de Frameworks -->
     
     <!-- Inicia columna de control de versiones -->
-    <div class="row">
-        <div class="col-md-12 textHabilidades">
-            <p class="fontText">CONTROL DE VERSIONES</p>
+    <div class="container contenedor">
+        <div class="textHabilidades">
+            <h2>control de versiones</h2>
         </div>
     </div>
+
+    
     <div class="row padding-versiones">
-        <div class="col-md-6"> 
+        <div class="col-md-6 github"> 
             <div class="progreso-basico-git git">
                 <span class="progreso-derecha-basico-git">
                     <span class="progress-bar-basico"></span>
@@ -197,7 +200,7 @@
                 <p class="infoPorcentaje">Basico</p>
             </div>
         </div>
-        <div class="col-md-6"> 
+        <div class="col-md-6 bitbucket"> 
             <div class="progreso-basico-buc buc">
                 <span class="progreso-derecha-basico-buc">
                     <span class="progress-bar-basico"></span>
@@ -213,31 +216,7 @@
     <!-- Termina columna de control de versiones -->
 </div>
 
-<footer class="">
-    <div class="container-fluid fondo-footer">
-        <div class="row linea-estilo">
-            <div class="col-md-4 celular-border">
-                <i class="fas fa-mobile-alt tamanio-Icono"></i>
-                <p>55-48-12-15-54</p>
-            </div>
-            <div class="col-md-4 correo-border">
-                <i class="far fa-envelope tamanio-Icono"></i>
-                <p>aldair.uaem@gmail.com</p>
-            </div>
-            <div class="col-md-4 linkedin ">
-                <i class="fab fa-linkedin tamanio-Icono"></i>
-                <p><a rel="stylesheet" class="style-link" href="http://www.linkedin.com/in/aldair-ramírez">www.linkedin.com/in/aldair-ramírez</a></p>
-            </div>
-        </div>
-    </div>
-</footer>
 
-
-
-</body>
-    <script src="js/jquery-3.5.0.slim.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/jquery-3.5.0.min.js"></script>
-    
-</html>
+<?php 
+    include_once "includes/templates/footer.php";
+?>

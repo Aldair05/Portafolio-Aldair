@@ -18,6 +18,9 @@
 
 .fotoInfantil{
     border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 117px -3px rgba(2,48,78,1);
+    -moz-box-shadow: 0px 0px 117px -3px rgba(2,48,78,1);
+    box-shadow: 0px 0px 117px -3px rgba(2,48,78,1);
 }
 
 .info-nombre{
