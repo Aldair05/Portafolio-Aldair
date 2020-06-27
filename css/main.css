@@ -140,24 +140,26 @@ h3{
 
 
 
-.textHabilidades{
-    padding-top: 70px;
-    text-align: center;
-}
-.fontText{
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #fff; 
+div.card video{
+    width: 100%;
+    height: auto;
+
 }
 
-.padding-card{
-    padding-bottom: 50px;
+div.card .card-title{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+div.card p{
     text-align: center;
 }
 
-.padding-gif{
-    text-align:center;
-    margin: 0 auto;
+
+#content-video {
+    padding-bottom: 30px;
 }
 
 .fontLink{
@@ -167,10 +169,6 @@ h3{
     font-weight: bold;
 }
 
-div.card-body p {
-    padding-top: 15px;
-    
-}
 
 .fontLink:hover{
     text-decoration: none;
