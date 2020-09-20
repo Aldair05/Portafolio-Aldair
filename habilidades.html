@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
@@ -21,16 +22,27 @@
 <body>
 <!-- INICIO DE MENU  -->
     <div class="container-fluid navbar-fixed-top">
-        <header class="">
-            <div id="mostrar-nav"><i class="fas fa-bars"></i></div>
-                <nav id="navega" class=" ">
-                  <ul class="menu">
-                    <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a></li>
-                    <li><a href="sobreMi.html"><i class="fas fa-user-alt"></i> Sobre mi</a></li>
-                    <li><a href="habilidades.html"><i class="fas fa-file-code"></i> Habilidades</a></li>
-                    <li><a href="proyectos.html"><i class="fas fa-project-diagram"></i> Proyectos</a></li>
-                  </ul>
-                </nav>
+        <header>
+            <!-- <div id="mostrar-nav"><i class="fas fa-bars"></i></div> -->
+            <div class="hamburger-btn">
+                <div class="hamburger"></div>
+            </div>
+            <nav id="navega" class="">
+              <ul class="menu">
+                <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="sobreMi.html"><i class="fas fa-user-alt"></i> Sobre mi</a></li>
+                <li><a href="habilidades.html"><i class="fas fa-file-code"></i> Habilidades</a></li>
+                <li><a href="proyectos.html"><i class="fas fa-project-diagram"></i> Proyectos</a></li>
+              </ul>
+              <div class="content-footer">
+                <div class="row  tamanio-icons">
+                  <a href="https://twitter.com/rami_aldair04" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="mailto:aldair.uaem@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  <a href="https://github.com/Aldair05" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/aldair-ramírez/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                </div> 
+              </div>
+            </nav>
         </header>
     </div>
 <!-- TERMINA  EL MENU  -->
@@ -217,25 +229,6 @@
 </div>
 
 
-<footer class="">
-  <div class="container-fluid fondo-footer">
-      <div class="row linea-estilo">
-          <div class="col-md-4 celular-border">
-              <i class="fas fa-mobile-alt tamanio-Icono"></i>
-              <p>55-48-12-15-54</p>
-          </div>
-          <div class="col-md-4 correo-border">
-              <i class="far fa-envelope tamanio-Icono"></i>
-              <p>aldair.uaem@gmail.com</p>
-          </div>
-          <div class="col-md-4 linkedin ">
-              <i class="fab fa-linkedin tamanio-Icono"></i>
-              <p><a rel="stylesheet" class="style-link" href="http://www.linkedin.com/in/aldair-ramírez">www.linkedin.com/in/aldair-ramírez</a></p>
-          </div>
-      </div>
-  </div>
-</footer>
-  <!--Fin de Informacion de inicio-->
 
     <script src="js/jquery-3.5.0.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

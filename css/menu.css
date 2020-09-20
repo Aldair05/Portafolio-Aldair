@@ -1,3 +1,56 @@
+/* Menu Hamburguesa */
+.hamburger-btn{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger{
+    position: relative;
+    width: 40px;
+    height: 4px;
+    background: #005a77;
+    box-shadow: 0 2px 2px #0004;
+    border-radius: 1px;
+    transition: all 500ms ease-out;
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #005a77;
+    box-shadow: 0 2px 2px #0004;
+    border-radius: 1px;
+    transition:  all 500ms ease-in-out;
+}
+
+.hamburger::before{
+    transform:translateY(-15px);
+}
+
+.hamburger::after{
+    transform: translateY(15px);
+}
+
+.hamburger-btn.open .hamburger{
+    background: transparent;
+    box-shadow: none;
+    z-index: 50;
+}
+
+.hamburger-btn.open .hamburger::before{
+    transform: rotate(45deg);
+}
+.hamburger-btn.open .hamburger::after{
+    transform: rotate(-45deg);
+}
+
 
 
 .menu {
@@ -12,10 +65,11 @@
 }
 
 .menu a{
-    color: #fff;
+    color: #005A77;
     text-decoration: none;
     display: block;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
     transition: all .6s;
     width: 100%;
     text-transform: uppercase;
@@ -27,16 +81,18 @@
     
 } 
 .menu li{
-    box-shadow: 2px 0 rgba(255,255,255, 0.2)inset; 
+    box-shadow: 2px 0 rgba( 0, 134, 141)inset; 
     margin-bottom: 5px;
     padding-left: 15px;
 }
 
+/* 
 .menu li:hover{
-   box-shadow: 200px 0 rgba(255,255,255, 0.2)inset;
-}
+   box-shadow: 200px 0 rgba(0, 134, 141)inset;
+} */
+
  nav{
-    background: rgb(0, 0, 0,.8);
+    background: rgb(0, 0, 0,.9);
     left: -200px;  
     height: 100%;
     position: fixed;
@@ -55,10 +111,40 @@
     position: fixed;
     cursor: pointer;
     font-size: 35px;
-    color: #B1AFB3;
+    color: #00868D;
     padding-left: 15px;
     padding-top: 10px;
     z-index: 30;
 }  
 
+/* .content-icons{
+    padding-top: 250px;
+} */
 
+.tamanio-icons i{
+    padding-right: 18px;
+    font-size: 1.7rem;
+    color: #005A77;
+    cursor: pointer;
+    transition: all .5s ease
+}
+
+.tamanio-icons a i:hover{
+    color: #00B28B;
+    
+}
+
+.content-footer {
+    /* text-align: center; */
+    padding-left: 30px;
+    
+}
+
+.content-footer div{
+    position: fixed;
+    bottom: 0;
+    color: #005A77;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600; 
+    
+}

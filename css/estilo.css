@@ -13,14 +13,19 @@
 
 
 .caja-imagen{
-    padding-top: 120px;
+    padding-top: 100px;
 }
+/* 
+.caja-imagen img{
+    width: 25%;
+} */
+
 
 .fotoInfantil{
-    border-radius: 40px;
-    -webkit-box-shadow: 0px 0px 117px -3px rgba(2,48,78,1);
+    border-radius: 700px;
+    /* -webkit-box-shadow: 0px 0px 117px -3px rgba(2,48,78,1);
     -moz-box-shadow: 0px 0px 117px -3px rgba(2,48,78,1);
-    box-shadow: 0px 0px 117px -3px rgba(2,48,78,1);
+    box-shadow: 0px 0px 117px -3px rgba(2,48,78,1); */
 }
 
 .info-nombre{
@@ -34,9 +39,49 @@
 .info{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    color: #fff;
+    color: rgb(2,21,48);
     padding-top: 15px;
 } 
+
+
+
+.line{
+    position: relative;
+    top: 50%;
+    width: 14.5em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(2,21,48,0.9);
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(50) 1s 1 normal both,
+    blinkTextCursor 500ms steps(50) infinite normal both;
+}
+
+@keyframes typewriter{
+    from{
+        width: 0;
+    }
+    to{
+        width: 23.5em;
+    }
+}
+
+@keyframes blinkTextCursor{
+    from{
+        border-right-color:rgba(255, 255, 255, 0.9);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+
 
 .textSobremi{
     text-align: center;
@@ -56,7 +101,7 @@
 
 /* MEDIAS QUERYS */
 
-@media (min-width: 300px){
+@media only screen and (max-width: 380px){
 
     .info-nombre{
         font-family: 'Pacifico', cursive;
@@ -69,17 +114,17 @@
         font-family: 'Open Sans', sans-serif;
         text-align: center;
         color: #fff;
-        font-size: 15px;
+        font-size: 12px !important;
     } 
 
 }
 
-@media (min-width: 576px) { 
+@media only screen and (max-width: 576px) { 
      
     .info-nombre{
         font-family: 'Pacifico', cursive;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         color: #fff;
     }
     
@@ -88,7 +133,7 @@
         text-align: center;
         color: #fff;
         
-        font-size: 20px;
+        font-size: 15px;
     } 
 
 
